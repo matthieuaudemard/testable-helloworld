@@ -1,3 +1,3 @@
 # testable-helloworld
 
-let's write a fully testable "hello world" in Java
+let's write a testable "hello world" in Java

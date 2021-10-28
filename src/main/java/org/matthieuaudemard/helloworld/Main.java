@@ -1,12 +1,14 @@
+package org.matthieuaudemard.helloworld;
+
 import java.io.PrintStream;
 
 public class Main {
 
     public static void main(String[] args) {
-        printHelloWorld(System.out);
+        new Main().helloWorld(System.out);
     }
 
-    static void printHelloWorld(PrintStream out) {
+    void helloWorld(PrintStream out) {
         out.println("Hello World");
     }
 }
